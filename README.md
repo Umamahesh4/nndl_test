@@ -61,8 +61,11 @@ The project aims to develop an Image Caption Generator using a **CNN** for featu
 
 ## Pretrained Models
 All trained models are stored on Google Drive and can be accessed here:  
+
 🔗 [VGG16_Tiny_Imagenet_model](https://drive.google.com/file/d/1anfxA4Fg_2rWkWZhnyeZpFaemIaFShwV/view?usp=sharing)  
+
 🔗 [features.pkl file](https://drive.google.com/file/d/1aEdbZ7ezSuwr-aN-n_X4eI4MuQNggxYe/view?usp=sharing)  
+
 🔗 [image_captioning_model](https://drive.google.com/file/d/1qvpVw88ChtexlwlzyPsKFds8QP8qWi5R/view?usp=sharing)  
 
 ---
