@@ -1,5 +1,4 @@
 
-````
 # Image Caption Generator
 
 ## Problem Statement
@@ -66,7 +65,7 @@ Model performance is evaluated using BLEU scores, assessing both precision and f
    ```bash
    git clone https://github.com/your-username/image-caption-generator.git
    cd image-caption-generator
-````
+   ````
 
 2. Install dependencies:
 
@@ -75,22 +74,6 @@ Model performance is evaluated using BLEU scores, assessing both precision and f
    ```
 3. Download datasets (Tiny ImageNet-200, Flickr30k, Flickr8k) and place them in the `data/` directory.
 
-## Usage
-
-### 1. Training the Model
-
-```bash
-python train.py --epochs 50 --batch_size 32
-```
-
-* `--epochs`: Number of training epochs (default: 50)
-* `--batch_size`: Batch size (default: 32)
-
-### 2. Generating Captions
-
-```bash
-python predict.py --image_path "test_image.jpg"
-```
 
 * **Output:** A generated caption for the input image (e.g., *"A dog is playing in the park"*).
 
@@ -122,10 +105,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)
 
----
 
 ⭐ Star the repo if you find it useful!
 Happy Coding! 🚀
 
-```
-```
