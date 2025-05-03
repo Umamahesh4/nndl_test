@@ -55,11 +55,17 @@ The project aims to develop an Image Caption Generator using a **CNN** for featu
 
 ## Results & Evaluation
 Model performance is evaluated using 
+
  -BLEU
+ 
  -RMSE
+ 
  -ACCURACY
+ 
  -LOSS
+ 
  -MSE
+ 
 
 ## Installation
 
