@@ -18,12 +18,12 @@ The project aims to develop an Image Caption Generator using a **CNN** for featu
 - **Shreyas** (CB.EN.U4CSE22154)  
 - **Uma Mahesh** (CB.EN.U4CSE22534)  
 - **Sathvik Reddy** (CB.EN.U4CSE22160)  
-- **Hemanth Reddy** (CB.EN.U4CSE22558) :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}
+- **Hemanth Reddy** (CB.EN.U4CSE22558) 
 
 ## Dataset Used
 - 📁 **Tiny ImageNet-200**  
 - 📁 **Flickr30k**  
-- 📁 **Flickr8k** :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}
+- 📁 **Flickr8k** 
 
 ## Preprocessing of Data
 1. **Image Processing**  
@@ -54,13 +54,12 @@ The project aims to develop an Image Caption Generator using a **CNN** for featu
 - Tuning performed by monitoring validation loss to avoid overfitting. :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}
 
 ## Results & Evaluation
-Model performance is evaluated using BLEU scores, assessing both precision and fluency of generated captions.  
-| Metric         | Score |
-| -------------- | ----- |
-| BLEU-1         | 0.45  |
-| BLEU-2         | 0.40  |
-| Training Acc   | 85%   |
-| Validation Acc | 80%   | :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}
+Model performance is evaluated using 
+ -BLEU
+ -RMSE
+ -ACCURACY
+ -LOSS
+ -MSE
 
 ## Installation
 
