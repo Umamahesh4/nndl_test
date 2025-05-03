@@ -88,35 +88,12 @@ All trained models are stored on Google Drive and can be accessed here:
    pip install -r requirements.txt
    ```
 
-3. Download datasets (Tiny ImageNet-200, Flickr30k, Flickr8k) and place them in the `data/` directory.
+3. Download datasets (Tiny ImageNet-200, Flickr30k, Flickr8k) and place them in the `/` directory.
 
 4. Run the model to generate captions:
 
-   ```bash
-   python generate_caption.py
-   ```
 
 * **Output:** A generated caption for the input image (e.g., *"A dog is playing in the park."*)
-
-## Contributing
-
-1. Fork the repository
-2. Create a branch:
-
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Commit your changes:
-
-   ```bash
-   git commit -m "Description of feature"
-   ```
-4. Push to your branch:
-
-   ```bash
-   git push origin feature-branch
-   ```
-5. Open a Pull Request
 
 ## License
 
