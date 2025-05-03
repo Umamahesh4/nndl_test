@@ -41,8 +41,10 @@ Steps
 Clone the repository:
 
 bash
+```
 git clone https://github.com/your-username/image-caption-generator.git
 cd image-caption-generator
+```
 Install dependencies:
 
 bash
