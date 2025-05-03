@@ -1,51 +1,49 @@
-Image Caption Generator - README
-Project Overview
-This project implements an Image Caption Generator using CNN (Convolutional Neural Network) for feature extraction and LSTM (Long Short-Term Memory) for text generation. The model is trained on the Flickr30k dataset to automatically generate descriptive captions for input images.
+# Image Caption Generator
 
-Team Members
-Shreyas (CB.EN.U4CSE22154)
+## Project Overview
+This project implements an **Image Caption Generator** using a **CNN (Convolutional Neural Network)** for feature extraction and an **LSTM (Long Short-Term Memory)** network for text generation. The model is trained on the **Flickr30k** dataset to automatically generate descriptive captions for input images.
 
-Uma Mahesh (CB.EN.U4CSE22534)
+## Team Members
+- **Shreyas** (CB.EN.U4CSE22154)  
+- **Uma Mahesh** (CB.EN.U4CSE22534)  
+- **Sathvik Reddy** (CB.EN.U4CSE22160)  
+- **Hemanth Reddy** (CB.EN.U4CSE22558)  
 
-Sathvik Reddy (CB.EN.U4CSE22160)
+## Features
+- ✔ **CNN (VGG16)** for extracting image features  
+- ✔ **LSTM Network** for generating captions  
+- ✔ **BLEU Score Evaluation** for assessing caption quality  
+- ✔ **Hyperparameter Tuning** (learning rate, batch size, dropout)  
 
-Hemanth Reddy (CB.EN.U4CSE22558)
+## Dataset Used
+- 📁 **Flickr30k** (Primary dataset)  
+- 📁 **Flickr8k** (Alternative dataset)  
+- 📁 **Tiny ImageNet-200** (For additional training)  
 
-Features
-CNN (VGG16) for extracting image features.
+## Installation
 
-LSTM Network for generating captions.
+### Prerequisites
+- Python 3.8+  
+- TensorFlow / Keras  
+- OpenCV  
+- NLTK  
 
-BLEU Score Evaluation for assessing caption quality.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/image-caption-generator.git
+   cd image-caption-generator
+   ```
+2. Install dependencies
+   ```
+   pip install -r requirements.txt
+    ```
+Model Architecture
+CNN (VGG16) → Extracts image features
 
-Hyperparameter Tuning (learning rate, batch size, dropout).
+Embedding Layer → Maps words to vectors
 
-Dataset Used
-Flickr30k (Primary dataset)
+LSTM → Generates captions from features
 
-Flickr8k (Alternative dataset)
-
-Tiny ImageNet-200 (For additional training)
-
-Installation
-Prerequisites
-Python 3.8+
-
-TensorFlow/Keras
-
-OpenCV
-
-NLTK
-
-Steps
-Clone the repository:
-
-bash
-```
-git clone https://github.com/your-username/image-caption-generator.git
-cd image-caption-generator
-```
-Install dependencies:
-
-bash
-pip install -r requirements.txt
+Dense Layers → Final caption output
+   
