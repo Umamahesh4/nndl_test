@@ -1,7 +1,5 @@
-Thought for a few seconds
 
-
-````markdown
+````
 # Image Caption Generator
 
 ## Problem Statement
