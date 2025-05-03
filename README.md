@@ -58,10 +58,9 @@ The project aims to develop an Image Caption Generator using a **CNN** for featu
 - **RMSE**
 - **MSE**
 - **Accuracy**
-- **Loss** 
- 
+- **Loss**
 
-
+##
 
 ### Prerequisites
 - Python 3.8+  
