@@ -2,7 +2,7 @@
 # Image Caption Generator
 
 ## Problem Statement
-The project aims to develop an Image Caption Generator using a **CNN** for feature extraction and an **LSTM** for text generation. The model is trained on the **Flickr30k** dataset to automatically generate descriptive captions for input images. :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}
+The project aims to develop an Image Caption Generator using a **CNN** for feature extraction and an **LSTM** for text generation. The model is trained on the **Flickr8k** dataset to automatically generate descriptive captions for input images. :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}
 
 ## Team Members
 - **Shreyas** (CB.EN.U4CSE22154)  
