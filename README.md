@@ -53,12 +53,12 @@ The project aims to develop an Image Caption Generator using a **CNN** for featu
   - Dropout rate  
 - Tuning performed by monitoring validation loss to avoid overfitting. :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}
 
-### Results & Evaluation
--BLEU
--RMSE
--ACCURACY
--LOSS
--MSE
+## Evaluation done using : 
+- **BLEU Score**  
+- **RMSE**
+- **MSE**
+- **Accuracy**
+- **Loss** 
  
 
 
