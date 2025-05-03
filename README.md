@@ -81,7 +81,6 @@ All trained models are stored on Google Drive and can be accessed here:
    ```bash
    git clone https://github.com/your-username/image-caption-generator.git
    cd image-caption-generator
-````
 
 2. Install dependencies:
 
@@ -128,10 +127,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 📧 **Email:** [umamaheshpalla2004@gmail.com](mailto:umamaheshpalla2004@gmail.com)
 
 ⭐ Star the repo if you find it useful!
-
-```
-
----
-
-Let me know the actual Google Drive link if you'd like me to update that part directly.
-```
