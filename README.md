@@ -4,10 +4,11 @@
 ## Problem Statement
 The project aims to develop an Image Caption Generator using a **CNN** for feature extraction and an **LSTM** for text generation. The model is trained on the **Flickr8k** dataset to automatically generate descriptive captions for input images. 
 ## Dataset source 
+ - **flicr8k dataset**
 [https://www.kaggle.com/datasets/adityajn105/flickr8k](URL)
-
+- **flicr30k dataset**
 [https://www.kaggle.com/datasets/adityajn105/flickr30k](URL)
-
+- **Tiny Imagenet dataset**
 [https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet](URL)
 
 
